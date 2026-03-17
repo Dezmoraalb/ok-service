@@ -678,27 +678,14 @@ h4,
     opacity: 0.8;
 }
 
-.card-arrow {
-    position: absolute;
-    top: 4rem;
-    right: 4rem;
-    font-size: 2rem;
-    transform: rotate(-45deg);
-    transition: transform 0.4s var(--ease-out-expo);
-}
+
 
 .service-card:hover {
     border-color: var(--accent);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.03);
 }
 
-.service-card:hover .service-title {
-    transform: translateX(10px);
-}
 
-.service-card:hover .card-arrow {
-    transform: rotate(0) translateX(10px);
-}
 
 /* Advantages */
 .advantages-container {
